@@ -1,0 +1,23 @@
+{
+  "name": "agent_dev",
+  "version": "1.0.0",
+  "description": "Custom coding agent with gitlab integration",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "author": "pavan.kt@zohocorp.com",
+  "license": "MIT",
+  "volta": {
+    "node": "26.12.1"
+  },
+  "dependencies": {
+    "@github/copilot-sdk": "^1.0.27",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "zod": "^4.6.7"
+  }
+}
